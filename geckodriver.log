@@ -66,3 +66,40 @@ ile.A6gby3lfjtn6
 1482114271466	geckodriver::marionette	INFO	Connecting to Marionette on localhost:6548
 1482114275923	Marionette	INFO	Listening on port 6548
 [Child 3164] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482117519095	geckodriver	INFO	Listening on 127.0.0.1:9230
+1482117520958	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.76AolWwwZiK4
+1482117520960	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482117521010	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9264
+1482117529389	Marionette	INFO	Listening on port 9264
+[Child 17948] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482117595192	geckodriver	INFO	Listening on 127.0.0.1:9965
+1482117597187	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.ExPEx1rq7O1B
+1482117597190	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482117597202	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9995
+1482117600952	Marionette	INFO	Listening on port 9995
+[Child 26068] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482117788194	geckodriver	INFO	Listening on 127.0.0.1:11814
+1482117790071	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.2zX4DlAmdTyI
+1482117790074	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482117790086	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11843
+1482117794881	Marionette	INFO	Listening on port 11843
+[Child 13580] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482117834668	geckodriver	INFO	Listening on 127.0.0.1:12263
+1482117836662	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.qS1n2yTVpxkC
+1482117836666	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482117836682	geckodriver::marionette	INFO	Connecting to Marionette on localhost:12287
+1482117841081	Marionette	INFO	Listening on port 12287
+JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/client/inspector/breadcrumbs.js, line 486: TypeError: this.handleMouseLeave is not a function
+[Child 31020] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1482118040456	geckodriver	INFO	Listening on 127.0.0.1:14253
+1482118042421	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.CP2N9EIpLbme
+1482118042423	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482118042435	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14280
+1482118046425	Marionette	INFO	Listening on port 14280
+[Child 35268] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482118101257	geckodriver	INFO	Listening on 127.0.0.1:14837
+1482118103259	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.bW83VmzJAbDu
+1482118103264	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482118103275	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14866
+1482118106946	Marionette	INFO	Listening on port 14866
+[Child 15264] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
