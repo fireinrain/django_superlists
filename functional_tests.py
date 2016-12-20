@@ -16,6 +16,13 @@ class NewVisitorTest(unittest.TestCase):
     def tearDown(self):
         self.browser.quit()
 
+    def check_for_row_in_list_table(self,row_text):
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn(
+            row_text, [row.text for row in rows]
+        )
+
 
     def test_can_start_a_list_and_retrieve_it_later(self):
         # 小美听说有一个很酷的在线代办事项应用
@@ -43,14 +50,15 @@ class NewVisitorTest(unittest.TestCase):
         # 待办事项表格中显示1：Buy peacock feathers
         inputbox.send_keys(Keys.ENTER)
 
+        import time
+        time.sleep(2)
 
-
-        table = self.browser.find_element_by_id('id_list_table')
-        print("这个是表格内容",table.text)
-        rows = table.find_elements_by_tag_name('tr')
-        self.assertIn(
-            '1:Buy peacock feathers',[row.text for row in rows]
-        )
+        self.check_for_row_in_list_table('1:Buy peacock feathers')
+        # table = self.browser.find_element_by_id('id_list_table')                      #提取辅助函数
+        # rows = table.find_elements_by_tag_name('tr')
+        # self.assertIn(
+        #     '1:Buy peacock feathers', [row.text for row in rows]
+        # )
         # self.assertTrue(
         #     any(row.text == '1:Buy peacock feathers' for row in rows),
         #     "new to-do item did not appear in table--its text was:\n%s" % (table.text,  #这种做法不够简洁
@@ -64,17 +72,20 @@ class NewVisitorTest(unittest.TestCase):
         inputbox = self.browser.find_element_by_id('id_new_item')
         inputbox.send_keys('Use peacock feathers to make a fly')
         inputbox.send_keys(Keys.ENTER)
+        time.sleep(2)
 
         # 页面再次跟新，她的清单上显示了两个代办事项
-        table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_tag_name('tr')
-        self.assertIn(
-            '1:Buy peacock feathers',[row.text for row in rows]
-        )
-        self.assertIn(
-            '2:Use peacock feathers to make a fly',
-            [row.text for row in rows]
-        )
+        self.check_for_row_in_list_table('1:Buy peacock feathers')
+        self.check_for_row_in_list_table('2:Use peacock feathers to make a fly')
+        # table = self.browser.find_element_by_id('id_list_table')
+        # rows = table.find_elements_by_tag_name('tr')
+        # self.assertIn(
+        #     '1:Buy peacock feathers', [row.text for row in rows]
+        # )
+        # self.assertIn(
+        #     '2:Use peacock feathers to make a fly',
+        #     [row.text for row in rows]
+        # )
         self.fail('Finish the test')
         # 她想知道这个网站是否可以记住她的清单
 
