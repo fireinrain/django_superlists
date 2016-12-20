@@ -4,9 +4,14 @@
     </head>
     <body>
         <h1>Your To-Do list</h1>
-        <input type="text" id="id_new_item" placeholder="Enter a to-do item">
+        <form action="#" method="POST">
+        <input type="text" id="id_new_item" placeholder="Enter a to-do item" name="item_text">
+            {% csrf_token %}
+            <button type="submit">提交</button>
+        </form>
     <table id="id_list_table">
 
+        <tr><td>1:{{ new_item_text }}</td></tr>
     </table>
     </body>
 </html>

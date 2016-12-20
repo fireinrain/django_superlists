@@ -43,20 +43,39 @@ class NewVisitorTest(unittest.TestCase):
         # 待办事项表格中显示1：Buy peacock feathers
         inputbox.send_keys(Keys.ENTER)
 
+
+
         table = self.browser.find_element_by_id('id_list_table')
+        print("这个是表格内容",table.text)
         rows = table.find_elements_by_tag_name('tr')
-        self.assertTrue(
-            any(row.text == '1:Buy peacock feathers' for row in rows),
-            "new to-do item did not appear in table"
+        self.assertIn(
+            '1:Buy peacock feathers',[row.text for row in rows]
         )
+        # self.assertTrue(
+        #     any(row.text == '1:Buy peacock feathers' for row in rows),
+        #     "new to-do item did not appear in table--its text was:\n%s" % (table.text,  #这种做法不够简洁
+        #     )
+        # )
+
 
         # 页面有显示了一个文本框，可以输入其它待办事项
         # 她输入了‘use peacock to make a fly 使用孔雀羽毛来做诱饵’
         # 她做事情很有条理
-        self.fail('Finish the test')
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('Use peacock feathers to make a fly')
+        inputbox.send_keys(Keys.ENTER)
 
         # 页面再次跟新，她的清单上显示了两个代办事项
-
+        table = self.browser.find_element_by_id('id_list_table')
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn(
+            '1:Buy peacock feathers',[row.text for row in rows]
+        )
+        self.assertIn(
+            '2:Use peacock feathers to make a fly',
+            [row.text for row in rows]
+        )
+        self.fail('Finish the test')
         # 她想知道这个网站是否可以记住她的清单
 
         # 她看到网站为她生成一个唯一的url
