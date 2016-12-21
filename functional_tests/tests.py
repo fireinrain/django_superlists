@@ -55,6 +55,7 @@ class NewVisitorTest(LiveServerTestCase):
         time.sleep(2)
 
         xm_list_url = self.browser.current_url
+        print(xm_list_url)
         self.assertRegex(
             xm_list_url,'/lists/.+'
         )

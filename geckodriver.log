@@ -433,3 +433,21 @@ JavaScript error: resource://gre/modules/commonjs/toolkit/loader.js -> resource:
 1482285717803	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11125
 1482285728613	Marionette	INFO	Listening on port 11125
 [Child 36884] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482330290839	geckodriver	INFO	Listening on 127.0.0.1:14794
+1482330292322	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.2aCGbX5ODxMC
+1482330292323	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482330292481	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14828
+1482330304208	Marionette	INFO	Listening on port 14828
+[Child 40292] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482330653906	geckodriver	INFO	Listening on 127.0.0.1:5153
+1482330655846	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.hcVtUMm0gyoI
+1482330655849	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482330655860	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5177
+1482330658666	Marionette	INFO	Listening on port 5177
+[Child 11316] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
+1482330702449	geckodriver	INFO	Listening on 127.0.0.1:5703
+1482330704439	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.GPo6MqxdKoZS
+1482330704441	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+1482330704454	geckodriver::marionette	INFO	Connecting to Marionette on localhost:5733
+1482330706595	Marionette	INFO	Listening on port 5733
+[Child 41980] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2056
