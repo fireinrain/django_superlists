@@ -54,6 +54,11 @@ class NewVisitorTest(LiveServerTestCase):
         import time
         time.sleep(2)
 
+        xm_list_url = self.browser.current_url
+        self.assertRegex(
+            xm_list_url,'/lists/.+'
+        )
+
         self.check_for_row_in_list_table('1:Buy peacock feathers')
         # table = self.browser.find_element_by_id('id_list_table')                      #提取辅助函数
         # rows = table.find_elements_by_tag_name('tr')
@@ -87,14 +92,51 @@ class NewVisitorTest(LiveServerTestCase):
         #     '2:Use peacock feathers to make a fly',
         #     [row.text for row in rows]
         # )
+
+        # 现在叫小刘的新用户访问了网站首页
+
+        ## 我们使用一个新的浏览器会话
+        # 确保小美的信息不会从cookie中泄露出来
+        self.browser.quit()
+        self.browser = webdriver.Firefox()
+
+        # 小刘访问首页
+        # 页面中看不到小美的清单
+        self.browser.get(self.live_server_url)
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn(
+            'Buy peacock feathers',page_text
+        )
+        self.assertNotIn(
+            'make a fly',page_text
+        )
+
+        # 小刘输入一个新的待办事项，新建一个清单
+        # 他不像小美那样有兴趣
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        inputbox.send_keys('Buy milk')
+        inputbox.send_keys(Keys.ENTER)
+
+        # 小刘获得他的唯一url
+        xl_list_url = self.browser.current_url
+        self.assertRegex(
+            xl_list_url,'/lists/.+'
+        )
+        self.assertNotEqual(
+            xl_list_url,xm_list_url
+        )
+
+        # 这个页面没有小美的清单出现
+        page_text = self.browser.find_element_by_tag_name('body').text
+        self.assertNotIn(
+            'Buy peacock feathers',page_text
+        )
+        self.assertIn(
+            'Buy milk',page_text
+        )
         self.fail('Finish the test')
-        # 她想知道这个网站是否可以记住她的清单
 
-        # 她看到网站为她生成一个唯一的url
-        # 而且页面中有一些文字解说这个功能
 
-        # 她访问这个url，发现她的待办事项列表还在
-
-        # 她很满意，就去睡觉了
+        # 她们很满意，就去睡觉了
 
 
