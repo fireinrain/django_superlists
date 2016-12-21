@@ -1,1 +1,7 @@
-<form action="/" method="POST"></form>
+<form action="/lists/new" method="POST"></form>
+
+<table id="id_list_table">
+        {% for item in items %}
+        <tr><td>{{ forloop.counter }}:{{ item.text }}</td></tr>
+        {% endfor %}
+</table>
