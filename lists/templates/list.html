@@ -1,4 +1,4 @@
-<form action="/lists/new" method="POST"></form>
+<form action="/lists/{{ list.id }}/add_item" method="POST"></form>
 
 <table id="id_list_table">
         {% for item in items %}
