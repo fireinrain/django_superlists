@@ -9,11 +9,6 @@ from lists.models import Item,List
 # Create your tests here.
 
 
-# 下面代码做初始化用
-# class SmokeTest(TestCase):
-#     def test_bad_maths(self):
-#         self.assertEqual(1+1,3)
-
 
 # 单元测试--默认页面测试
 class HomePageTest(TestCase):
