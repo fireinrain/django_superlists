@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class List(models.Model):
-    pass
+    listdb = models.TextField(default='')
 
 class Item(models.Model):
     text = models.TextField(default='')

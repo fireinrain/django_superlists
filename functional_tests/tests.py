@@ -25,6 +25,17 @@ class NewVisitorTest(LiveServerTestCase):
         )
 
 
+    # 测试页面是否居中
+    def test_layout_and_styling(self):
+        #访问页面
+        self.browser.get(self.live_server_url)
+        self.browser.set_window_position(1024,768)
+
+        #看到输入框显示居中
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x']+inputbox.size['width']/2,512,delta=5
+        )
     def test_can_start_a_list_and_retrieve_it_later(self):
         # 小美听说有一个很酷的在线代办事项应用
         # 他去看了这个应用的首页
@@ -82,17 +93,9 @@ class NewVisitorTest(LiveServerTestCase):
         time.sleep(2)
 
         # 页面再次跟新，她的清单上显示了两个代办事项
-        self.check_for_row_in_list_table('1:Buy peacock feathers')
         self.check_for_row_in_list_table('2:Use peacock feathers to make a fly')
-        # table = self.browser.find_element_by_id('id_list_table')
-        # rows = table.find_elements_by_tag_name('tr')
-        # self.assertIn(
-        #     '1:Buy peacock feathers', [row.text for row in rows]
-        # )
-        # self.assertIn(
-        #     '2:Use peacock feathers to make a fly',
-        #     [row.text for row in rows]
-        # )
+        self.check_for_row_in_list_table('1:Buy peacock feathers')
+
 
         # 现在叫小刘的新用户访问了网站首页
 
@@ -118,6 +121,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
 
+        time.sleep(2)
         # 小刘获得他的唯一url
         xl_list_url = self.browser.current_url
         self.assertRegex(
