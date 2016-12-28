@@ -3,11 +3,12 @@
 # Written by liuzhaoyang
 # wcontact:liu575563079@gmail.com
 
-from django.test import LiveServerTestCase
+from django.test import LiveServerTestCase #LiveServerTestCase 是无法加载静态文件的
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
 
-class NewVisitorTest(LiveServerTestCase):
+class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
@@ -25,17 +26,7 @@ class NewVisitorTest(LiveServerTestCase):
         )
 
 
-    # 测试页面是否居中
-    def test_layout_and_styling(self):
-        #访问页面
-        self.browser.get(self.live_server_url)
-        self.browser.set_window_position(1024,768)
 
-        #看到输入框显示居中
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        self.assertAlmostEqual(
-            inputbox.location['x']+inputbox.size['width']/2,512,delta=5
-        )
     def test_can_start_a_list_and_retrieve_it_later(self):
         # 小美听说有一个很酷的在线代办事项应用
         # 他去看了这个应用的首页
@@ -144,4 +135,14 @@ class NewVisitorTest(LiveServerTestCase):
 
         # 她们很满意，就去睡觉了
 
+        # 测试页面是否居中
+    def test_layout_and_styling(self):
+        # 访问页面
+        self.browser.get(self.live_server_url)
+        self.browser.set_window_position(1024, 768)
 
+        # 看到输入框显示居中
+        inputbox = self.browser.find_element_by_id('id_new_item')
+        self.assertAlmostEqual(
+            inputbox.location['x'] + inputbox.size['width'] / 2, 680, delta=5
+        )
