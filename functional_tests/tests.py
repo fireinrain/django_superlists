@@ -7,6 +7,7 @@ from django.test import LiveServerTestCase #LiveServerTestCase 是无法加载�
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
+from unittest import skip
 
 class NewVisitorTest(StaticLiveServerTestCase):
 
@@ -146,3 +147,37 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertAlmostEqual(
             inputbox.location['x'] + inputbox.size['width'] / 2, 680, delta=5
         )
+
+    # 测试提交空的代办事项
+    @skip                   # 跳过该测试
+    def test_cannot_add_empty_list_items(self):
+        # 小美访问首页，不小心提交了一个空的代办事项
+        # 输入框中没有内容，并且她按下了提交按钮
+        self.browser.get(self.live_server_url)
+        self.browser.find_element_by_id('id_new_item').send_keys('\n')
+
+
+        # 首页刷新了，显示了一个错误的消息
+        # 提示代办事项不能为空
+        error = self.browser.find_element_by_css_selector('.has-error')
+        self.assertEqual(
+            error.text,"You can't have an empty list item"
+        )
+
+        # 他输如了一些内容，然后提交，这次没有问题了
+        self.browser.find_element_by_id('id_new_item').send_keys('Buy milk\n')
+        self.check_for_row_in_list_table('1:Buy milk')
+
+        # 他有点调皮，又提交了一个空的代办事项
+        self.browser.find_element_by_id('id_new_item').send_keys('\n')
+        # 他在他的清单页面再次看到了类似的错误信息
+        self.check_for_row_in_list_table('1:Buy milk')
+        error = self.browser.find_element_by_css_selector('.has-error')
+        self.assertEqual(
+            error.text, "You can't have an empty list item"
+        )
+        # 输入文字之后就没问题了
+        self.browser.find_element_by_id('id_new_item').send_keys('Make tea\n')
+        self.check_for_row_in_list_table('1:Buy milk')
+        self.check_for_row_in_list_table('2:Make tea')
+        self.fail('write me')
