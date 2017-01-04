@@ -1101,3 +1101,324 @@ JavaScript warning: https://normandy.cdn.mozilla.net/static/bundles/selfrepair-1
 [Child 13686] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 320
 [Child 13686] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
 [Child 13686] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483014966564	geckodriver	INFO	Listening on 127.0.0.1:52298
+1483014967579	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.CW4mesG5CKie
+1483014967580	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483014967584	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34176
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483014967948	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014967950	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014967959	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014967960	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014967967	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014967968	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014968333	Marionette	INFO	Listening on port 34176
+1483014968565	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014968566	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014968566	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014968572	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014968573	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014968573	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:14720): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14720): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14720): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14720): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14658): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 14720] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 14720] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483014979479	geckodriver	INFO	Listening on 127.0.0.1:47731
+1483014980468	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.pBarT0hUGgTb
+1483014980470	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483014980475	geckodriver::marionette	INFO	Connecting to Marionette on localhost:41811
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483014980859	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014980863	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014980873	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014980874	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014980881	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014980882	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014981281	Marionette	INFO	Listening on port 41811
+1483014981504	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014981505	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014981506	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014981511	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014981512	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014981512	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:14834): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14834): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14834): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14834): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:14773): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 14834] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 14834] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483014989870	geckodriver	INFO	Listening on 127.0.0.1:60410
+1483014990866	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.LdB12TZNsBlC
+1483014990867	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483014990873	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37345
+
+(firefox:14882): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14882): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14882): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14882): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483014991247	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014991249	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014991258	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014991259	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014991266	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014991267	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014991657	Marionette	INFO	Listening on port 37345
+1483014991900	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014991901	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014991902	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014991908	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014991909	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014991910	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:14941): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14941): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14941): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:14941): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Child 14941] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 320
+[Child 14941] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 14941] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483014994662	geckodriver	INFO	Listening on 127.0.0.1:43646
+1483014995662	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.J2b3sSPk8pmS
+1483014995663	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483014995669	geckodriver::marionette	INFO	Connecting to Marionette on localhost:43347
+
+(firefox:14986): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14986): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:14986): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:14986): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483014996053	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014996057	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014996067	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014996067	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014996075	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014996076	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014996454	Marionette	INFO	Listening on port 43347
+1483014996704	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014996706	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014996706	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483014996715	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483014996716	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483014996717	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:15051): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15051): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15051): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15051): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Child 15051] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 15051] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+1483015140382	geckodriver	INFO	Listening on 127.0.0.1:43803
+1483015141382	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.jFskCbaQa6bQ
+1483015141383	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483015141386	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45945
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483015141744	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015141748	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015141758	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015141759	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015141766	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015141767	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015142190	Marionette	INFO	Listening on port 45945
+1483015142426	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015142427	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015142427	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015142432	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015142433	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015142433	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:15209): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15209): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15209): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15209): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:15140): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 15209] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 15209] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483015163281	geckodriver	INFO	Listening on 127.0.0.1:48132
+1483015164282	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.YWIIrTKqB9Zj
+1483015164283	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483015164288	geckodriver::marionette	INFO	Connecting to Marionette on localhost:45000
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483015164655	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015164657	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015164668	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015164669	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015164676	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015164677	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015165062	Marionette	INFO	Listening on port 45000
+1483015165295	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015165296	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015165296	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015165301	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015165302	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015165302	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:15328): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15328): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15328): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15328): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:15264): GLib-GObject-CRITICAL **: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+[Child 15328] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 15328] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483015177896	geckodriver	INFO	Listening on 127.0.0.1:58935
+1483015178897	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.wFP50bz0qJiT
+1483015178899	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483015178904	geckodriver::marionette	INFO	Connecting to Marionette on localhost:38422
+
+(firefox:15382): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15382): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15382): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15382): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483015179343	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015179345	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015179355	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015179355	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015179363	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015179364	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015179732	Marionette	INFO	Listening on port 38422
+1483015179957	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015179958	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015179958	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015179963	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015179964	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015179964	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:15440): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15440): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15440): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15440): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Child 15440] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 320
+[Child 15440] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 15440] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+1483015182646	geckodriver	INFO	Listening on 127.0.0.1:59863
+1483015183643	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.jWXi67ncIro8
+1483015183644	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox
+1483015183648	geckodriver::marionette	INFO	Connecting to Marionette on localhost:37272
+
+(firefox:15485): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15485): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:15485): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:15485): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1483015183997	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015183998	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015184007	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015184008	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015184015	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015184016	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015184413	Marionette	INFO	Listening on port 37272
+1483015184682	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015184684	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015184685	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+1483015184694	addons.xpi	WARN	Add-on langpack-en-GB@firefox.mozilla.org is not compatible with application version.
+1483015184695	addons.xpi	WARN	Add-on langpack-zh-CN@firefox.mozilla.org is not compatible with application version.
+1483015184695	addons.xpi	WARN	Add-on langpack-en-ZA@firefox.mozilla.org is not compatible with application version.
+
+(/usr/lib/firefox/plugin-container:15548): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15548): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15548): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:15548): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+[Child 15548] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+[Child 15548] ###!!! ABORT: Aborting on channel error.: file /build/firefox-motZyY/firefox-50.1.0+build2/ipc/glue/MessageChannel.cpp, line 2056
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x1060003,name=PTexture::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x420003,name=PCompositable::Msg_Destroy) Channel error: cannot send/recv
+

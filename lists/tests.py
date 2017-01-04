@@ -111,17 +111,18 @@ class ListViewTest(TestCase):
 
         response = self.client.get('/lists/%d/' % (correct_list.id,))
 
-        print(response.content)
+        # print(response.content)
         self.assertContains(
             response,'item 1'
         )
         self.assertContains(
             response,'item 2'
         )
-        self.assertContains(
+
+        self.assertNotContains(
             response,'other list item 1'
         )
-        self.assertContains(
+        self.assertNotContains(
             response,'other list item 2'
         )
 

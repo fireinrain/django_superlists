@@ -145,7 +145,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
         # 看到输入框显示居中
         inputbox = self.browser.find_element_by_id('id_new_item')
         self.assertAlmostEqual(
-            inputbox.location['x'] + inputbox.size['width'] / 2, 680, delta=5
+            inputbox.location['x'] + inputbox.size['width'] / 2, 615, delta=5
         )
 
     # 测试提交空的代办事项
